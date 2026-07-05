@@ -1,16 +1,13 @@
-# (MVP) Machine Learning & Analytics
-Repositorio para entrega da MVP para o curso de Pos-Graduação em Ciência de Dados e Analytics pela PUC-RIO  
+# (MVP) Machine Learning & Analytics: Segmentação de Clientes por Clusterização 
 **Nome:** Adson Fialho Marques  
 **Matrícula:** 4052025002646
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdsonFialho/MVP_Analise-de-Dados-e-Boas-Praticas/blob/main/Análise_de_Dados_e_Boas_Práticas_(4052025002646).ipynb)
-
-# MVP - Machine Learning & Analytics: Segmentação de Clientes por Clusterização
-
 Este repositório contém o MVP (Minimum Viable Product) desenvolvido para a sprint
-**Machine Learning & Analytics** do curso de pós-graduação. O trabalho aplica técnicas
-de aprendizado não supervisionado para identificar perfis de clientes de um distribuidor
+**Machine Learning & Analytics** do curso de Pos-Graduação em Ciência de Dados e Analytics pela PUC-RIO. 
+O trabalho aplica técnicas de aprendizado não supervisionado para identificar perfis de clientes de um distribuidor
 atacadista a partir de seus padrões de gasto.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdsonFialho/MVP_Machine_Learning_Analytics/blob/main/MVP_Machine_Learning_Analytics_(4052025002646).ipynb)
 
 ## Objetivo
 
@@ -22,7 +19,7 @@ prever um valor ou categoria conhecida.
 ## Dataset
 
 - **Nome:** Wholesale customers
-- **Fonte:** UCI Machine Learning Repository
+- **Fonte:** UCI Machine Learning Repository -> [Link do Dataset](https://archive.ics.uci.edu/dataset/292/wholesale+customers)
 - **Registros:** 440 clientes
 - **Atributos:** 6 variáveis numéricas de gasto anual (Fresh, Milk, Grocery, Frozen,
   Detergents_Paper e Delicassen), além de duas variáveis categóricas de contexto
@@ -100,5 +97,5 @@ não sendo necessário nenhum upload manual.
 ## Estrutura do repositório
 
 - `Wholesale_customers_dataset.csv` — base de dados utilizada.
-- Notebook do MVP (`.ipynb`) — desenvolvimento completo do projeto.
+- `MVP_Machine_Learning_Analytics_(4052025002646).ipynb` — Notebook de desenvolvimento completo do projeto.
 - `README.md` — este arquivo.
